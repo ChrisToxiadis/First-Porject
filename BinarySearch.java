@@ -1,10 +1,10 @@
 import java.util.*;
 public class Search{
-
+  private static final int size = 20;
   public static void main(String[] args){
     Scanner scan = new Scanner(System.in);
     int number  = scan.nextInt();
-    int[] array = new int[20];
+    int[] array = new int[size];
     makeArray(array,20);
     int position = search(array,number,0,array.length -1,0);
     System.out.println(position < 0 ? "false" : position);
