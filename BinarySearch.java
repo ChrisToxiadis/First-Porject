@@ -32,5 +32,4 @@ public class Search{
         array[i] = rand.nextInt(500);
       while (array[i] < array[i-1]);
   }
-
 }
